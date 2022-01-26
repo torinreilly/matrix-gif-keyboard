@@ -1,13 +1,22 @@
-#### **Warning**: Do **not** use this in **production**, due to a limitation in how stickers are implemented in the Element clients this widget exposes an endpoint that can be used to upload any image to your content repository.
-#### **Note**: Following this guide will **replace** your current sticker-picker with a GIF keyboard. Be sure to **backup** your current `m.widget` state if you wish to preserve it. This currently does not work as a standard widget and must replace the sticker-picker.
+**Warning**: **Do not use this in production**. Due to a limitation in how stickers are implemented in the Element clients this widget exposes an endpoint that can be used to upload any image to your content repository.
+
+**Note**: Following this guide **will replace** your current sticker-picker with a GIF keyboard. Be sure to **backup** your current `m.widget` state if you wish to preserve it. This currently does not work as a standard widget and must replace the sticker-picker.
 
 # Matrix GIF Keyboard
 This project seeks to add a GIF keyboard to Matrix in the form of a widget that can replace the sticker-picker. Currently, there are three backend GIF APIs supported: Giphy, Tenor, and DuckDuckGo (which can pull from a variety of sources). Primary support is targeted for the Element Matrix clients (Web/iOS/Android). SchildiChat has also been tested and is the preferred client on Android at this time.
 
 **Matrix room:** [#gifkeyboard:matrix.treilly.dev](https://matrix.to/#/#gifkeyboard:matrix.treilly.dev)
 
+Element Web:
+
 <img src="Desktop_keyboard.png" alt="Desktop screenshot" width="200">
+
+Element iOS:
+
 <img src="iOS_keyboard.png" alt="iOS screenshot" width="200">
+
+Element Android:
+
 <img src="Android_keyboard.png" alt="Android screenshot" width="200">
 
 ## Requirements
