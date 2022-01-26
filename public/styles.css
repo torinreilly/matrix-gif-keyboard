@@ -1,0 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+/* Root font style */
+* {
+    background: #333447;
+ }

@@ -1,0 +1,9 @@
+{{#each gifs}}
+  <li class="relative">
+    <div class="col-span-1 group aspect-w-10 aspect-h-10 rounded-lg bg-gray-100 overflow-hidden">
+        <img class="w-full h-full object-cover" src="{{this.image}}" alt="{{this.title}}" full_src="{{this.image}}" img_width="{{this.width}}" img_height="{{this.height}}" img_title="{{ this.title }}"/>
+    </div>
+  </li>
+{{else}}
+{{> no_results }}
+{{/each}}
