@@ -164,10 +164,6 @@ GIPHY and Tenor both supply information about the size of the images they provid
 #### API availability/stability is not guaranteed
 The DuckDuckGo is not a public, documented API so it could be subject to change with little notice.
 
-### Element Android App
-#### Gifs do not autoplay
-On Android, animated stickers (GIFs in our case) do not autoplay but they can be sent and received successfully. An [issue](https://github.com/vector-im/element-android/issues/2668) is open regarding this behavior. For the best experience with the GIF keyboard on Android, please try [SchildiChat](https://schildi.chat/) on which animated stickers will autoplay.
-
 ## Stack
 1. Node
 2. Express w/ Handlebars
